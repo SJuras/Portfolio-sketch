@@ -598,6 +598,166 @@ header.sticky {
   width: 50%;
 }
 
+.gallery {
+  background-color: #25262a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.gallery-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-box {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.gallery-box:hover {
+  transform: scale(1.1);
+  /* -webkit-box-shadow: 0px 9px 18px 4px rgba(100, 245, 171, 1);
+  box-shadow: 0px 9px 18px 4px rgba(100, 245, 171, 1);  */
+}
+
+.gallery-box-1 {
+  background: url("../img/kronstadt.png");
+}
+
+.gallery-box-2 {
+  background: url("../img/barber.png");
+}
+
+.gallery-box-3 {
+  background: url("../img/graphic.png");
+}
+
+.gallery-box-4 {
+  background: url("../img/lorenzo.png");
+}
+
+.gallery-box-5 {
+  background: url("../img/coders.png");
+}
+
+.gallery-box-6 {
+  background: url("../img/exanor.png");
+}
+
+.gallery-box-7 {
+  background: url("../img/metatron.png");
+}
+
+.gallery-box-8 {
+  background: url("../img/skywire.png");
+}
+
+.gallery-box-9 {
+  background: url("../img/mayra.png");
+}
+
+.gallery-box-10 {
+  background: url("../img/tarkhan.png");
+}
+
+.gallery-box-11 {
+  background: url("../img/cod.png");
+}
+
+.gallery-box-12 {
+  background: url("../img/warchief.png");
+}
+
+.gallery-box-13 {
+  background: url("../img/bomber.png");
+}
+
+.gallery-box-14 {
+  background: url("../img/cypherlock.png");
+}
+
+.gallery-box-15 {
+  background: url("../img/linkdash.png");
+}
+
+.gallery-box-16 {
+  background: url("../img/haddad.png");
+}
+
+.gallery-box-17 {
+  background: url("../img/exanorLogo.png");
+}
+
+.gallery-box-18 {
+  background: url("../img/cypherlockLogo.png");
+}
+
+.gallery-box-19 {
+  background: url("../img/qrazorlogo.png");
+}
+
+.gallery-box-20 {
+  background: url("../img/savaranlogo.png");
+}
+
+.gallery-box-21 {
+  background: url("../img/thufirlogo.png");
+}
+
+.gallery-box-inner {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.3);
+  transition: 0.8s;
+}
+
+.gallery-box:hover .gallery-box-inner {
+  background-color: transparent;
+}
+
+.inner-2 {
+  justify-content: flex-end;
+}
+
+
+.made-in {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.made-in-box {
+  padding: 6px;
+  margin-left: 6px;
+  background-color: #25262a;
+  color: #fff;
+}
+
+.gallery-box-titles {
+  width: 100%;
+  padding: 12px;
+  background-color: #25262a;
+  color: #fff;
+}
+
+.gallery-box-titles .title {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -836,6 +996,10 @@ footer {
     width: 100%;
     padding: 0px;
     margin-bottom: 24px;
+  }
+
+  .gallery-box-inner {
+    background-color: transparent;
   }
 
   .contact-form-inner {
